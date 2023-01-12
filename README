@@ -1,0 +1,13 @@
+########################################################################################################################
+dataLoader.py  :: preprocessing data, return cleaned message list and label
+nblearn.py     :: training NB model, build up P(word|ham) P(word|spam) table
+nbclassify.py  :: testing NB model, return accuracy, TF,TN,FP,FN
+main.py        :: __main__ file, train, test model and output results
+
+
+
+
+e.g running:
+python main.py SMSSpamCollection
+
+sys.argv[1] takes data file path
